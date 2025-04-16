@@ -1,0 +1,13 @@
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.csproj.AssemblyReference.cache
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.AssemblyInfoInputs.cache
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.AssemblyInfo.cs
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.csproj.CoreCompileInputs.cache
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.sourcelink.json
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\bin\Debug\net9.0\xmi-schema-Csharp.Core.deps.json
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\bin\Debug\net9.0\xmi-schema-Csharp.Core.dll
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\bin\Debug\net9.0\xmi-schema-Csharp.Core.pdb
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.dll
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\refint\xmi-schema-Csharp.Core.dll
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\xmi-schema-Csharp.Core.pdb
+E:\xmi-schema-Csharp\xmi-schema-Csharp.Core\obj\Debug\net9.0\ref\xmi-schema-Csharp.Core.dll
