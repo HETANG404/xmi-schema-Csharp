@@ -1,0 +1,427 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "label": "Point1",
+      "type": "XmiPoint3D",
+      "attributes": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "ID": "p1",
+        "Name": "Point1",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiPoint3D"
+      }
+    },
+    {
+      "id": "p2",
+      "label": "Point2",
+      "type": "XmiPoint3D",
+      "attributes": {
+        "X": 5.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "ID": "p2",
+        "Name": "Point2",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiPoint3D"
+      }
+    },
+    {
+      "id": "n1",
+      "label": "Node1",
+      "type": "XmiStructuralPointConnection",
+      "attributes": {
+        "ID": "n1",
+        "Name": "Node1",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiStructuralPointConnection"
+      }
+    },
+    {
+      "id": "n2",
+      "label": "Node2",
+      "type": "XmiStructuralPointConnection",
+      "attributes": {
+        "ID": "n2",
+        "Name": "Node2",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiStructuralPointConnection"
+      }
+    },
+    {
+      "id": "m1",
+      "label": "Concrete",
+      "type": "XmiStructuralMaterial",
+      "attributes": {
+        "Grade": 30.0,
+        "UnitWeight": 25.0,
+        "EModulus": 30000.0,
+        "GModulus": 12000.0,
+        "PoissonRatio": 0.2,
+        "ThermalCoefficient": 1.2E-05,
+        "ID": "m1",
+        "Name": "Concrete",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiStructuralMaterial"
+      }
+    },
+    {
+      "id": "cs1",
+      "label": "RectSection",
+      "type": "XmiStructuralCrossSection",
+      "attributes": {
+        "Parameters": [
+          "b=300",
+          "h=500"
+        ],
+        "Area": 150000.0,
+        "SecondMomentOfAreaXAxis": 6250000.0,
+        "SecondMomentOfAreaYAxis": 6250000.0,
+        "RadiusOfGyrationXAxis": 144.3,
+        "RadiusOfGyrationYAxis": 144.3,
+        "ElasticModulusXAxis": 200000.0,
+        "ElasticModulusYAxis": 200000.0,
+        "PlasticModulusXAxis": 250000.0,
+        "PlasticModulusYAxis": 250000.0,
+        "TorsionalConstant": 12000000.0,
+        "ID": "cs1",
+        "Name": "RectSection",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiStructuralCrossSection"
+      }
+    },
+    {
+      "id": "seg1",
+      "label": "Segment1",
+      "type": "XmiSegment",
+      "attributes": {
+        "Position": 0.0,
+        "ID": "seg1",
+        "Name": "Segment1",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiSegment"
+      }
+    },
+    {
+      "id": "cm1",
+      "label": "Beam1",
+      "type": "XmiStructuralCurveMember",
+      "attributes": {
+        "Nodes": [
+          {
+            "Storey": {
+              "StoreyElevation": 3.5,
+              "StoreyMass": 5000.0,
+              "StoreyHorizontalReactionX": "RX",
+              "StoreyHorizontalReactionY": "RY",
+              "StoreyVerticalReaction": "RZ",
+              "ID": "s1",
+              "Name": "Storey1",
+              "IFCGUID": "",
+              "NativeId": "",
+              "Description": "",
+              "EntityType": "XmiStructuralStorey"
+            },
+            "Point": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "ID": "p1",
+              "Name": "Point1",
+              "IFCGUID": "",
+              "NativeId": "",
+              "Description": "",
+              "EntityType": "XmiPoint3D"
+            },
+            "ID": "n1",
+            "Name": "Node1",
+            "IFCGUID": "",
+            "NativeId": "",
+            "Description": "",
+            "EntityType": "XmiStructuralPointConnection"
+          },
+          {
+            "Storey": {
+              "StoreyElevation": 3.5,
+              "StoreyMass": 5000.0,
+              "StoreyHorizontalReactionX": "RX",
+              "StoreyHorizontalReactionY": "RY",
+              "StoreyVerticalReaction": "RZ",
+              "ID": "s1",
+              "Name": "Storey1",
+              "IFCGUID": "",
+              "NativeId": "",
+              "Description": "",
+              "EntityType": "XmiStructuralStorey"
+            },
+            "Point": {
+              "X": 5.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "ID": "p2",
+              "Name": "Point2",
+              "IFCGUID": "",
+              "NativeId": "",
+              "Description": "",
+              "EntityType": "XmiPoint3D"
+            },
+            "ID": "n2",
+            "Name": "Node2",
+            "IFCGUID": "",
+            "NativeId": "",
+            "Description": "",
+            "EntityType": "XmiStructuralPointConnection"
+          }
+        ],
+        "Segments": [
+          {
+            "Geometry": null,
+            "Position": 0.0,
+            "BeginNode": {
+              "Storey": {
+                "StoreyElevation": 3.5,
+                "StoreyMass": 5000.0,
+                "StoreyHorizontalReactionX": "RX",
+                "StoreyHorizontalReactionY": "RY",
+                "StoreyVerticalReaction": "RZ",
+                "ID": "s1",
+                "Name": "Storey1",
+                "IFCGUID": "",
+                "NativeId": "",
+                "Description": "",
+                "EntityType": "XmiStructuralStorey"
+              },
+              "Point": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "ID": "p1",
+                "Name": "Point1",
+                "IFCGUID": "",
+                "NativeId": "",
+                "Description": "",
+                "EntityType": "XmiPoint3D"
+              },
+              "ID": "n1",
+              "Name": "Node1",
+              "IFCGUID": "",
+              "NativeId": "",
+              "Description": "",
+              "EntityType": "XmiStructuralPointConnection"
+            },
+            "EndNode": {
+              "Storey": {
+                "StoreyElevation": 3.5,
+                "StoreyMass": 5000.0,
+                "StoreyHorizontalReactionX": "RX",
+                "StoreyHorizontalReactionY": "RY",
+                "StoreyVerticalReaction": "RZ",
+                "ID": "s1",
+                "Name": "Storey1",
+                "IFCGUID": "",
+                "NativeId": "",
+                "Description": "",
+                "EntityType": "XmiStructuralStorey"
+              },
+              "Point": {
+                "X": 5.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "ID": "p2",
+                "Name": "Point2",
+                "IFCGUID": "",
+                "NativeId": "",
+                "Description": "",
+                "EntityType": "XmiPoint3D"
+              },
+              "ID": "n2",
+              "Name": "Node2",
+              "IFCGUID": "",
+              "NativeId": "",
+              "Description": "",
+              "EntityType": "XmiStructuralPointConnection"
+            },
+            "SegmentType": 0,
+            "ID": "seg1",
+            "Name": "Segment1",
+            "IFCGUID": "",
+            "NativeId": "",
+            "Description": "",
+            "EntityType": "XmiSegment"
+          }
+        ],
+        "Length": 5.0,
+        "LocalAxisX": "1,0,0",
+        "LocalAxisY": "0,1,0",
+        "LocalAxisZ": "0,0,1",
+        "BeginNodeYOffset": 0.0,
+        "EndNodeYOffset": 0.0,
+        "BeginNodeZOffset": 0.0,
+        "EndNodeZOffset": 0.0,
+        "BeginNodeXOffset": 0.0,
+        "EndNodeXOffset": 0.0,
+        "EndFixityStart": "Fixed",
+        "EndFixityEnd": "Pinned",
+        "ID": "cm1",
+        "Name": "Beam1",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiStructuralCurveMember"
+      }
+    },
+    {
+      "id": "s1",
+      "label": "Storey1",
+      "type": "XmiStructuralStorey",
+      "attributes": {
+        "StoreyElevation": 3.5,
+        "StoreyMass": 5000.0,
+        "StoreyHorizontalReactionX": "RX",
+        "StoreyHorizontalReactionY": "RY",
+        "StoreyVerticalReaction": "RZ",
+        "ID": "s1",
+        "Name": "Storey1",
+        "IFCGUID": "",
+        "NativeId": "",
+        "Description": "",
+        "EntityType": "XmiStructuralStorey"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "7591a559-5a4b-4191-88e9-80d547b274f7",
+      "label": "XmiHasGeometry",
+      "source": "n1",
+      "target": "p1",
+      "attributes": {
+        "ID": "7591a559-5a4b-4191-88e9-80d547b274f7",
+        "Name": "XmiHasGeometry",
+        "Description": "",
+        "EntityType": "XmiHasGeometry",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "4beecd06-8183-4241-8e1a-1a8d5e81bb29",
+      "label": "XmiHasGeometry",
+      "source": "n2",
+      "target": "p2",
+      "attributes": {
+        "ID": "4beecd06-8183-4241-8e1a-1a8d5e81bb29",
+        "Name": "XmiHasGeometry",
+        "Description": "",
+        "EntityType": "XmiHasGeometry",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "593376bf-979a-4c74-969c-3f4cdc19e2c2",
+      "label": "XmiHasStructuralMaterial",
+      "source": "cs1",
+      "target": "m1",
+      "attributes": {
+        "ID": "593376bf-979a-4c74-969c-3f4cdc19e2c2",
+        "Name": "XmiHasStructuralMaterial",
+        "Description": "",
+        "EntityType": "XmiHasStructuralMaterial",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "7a2c29d0-0c76-401a-a5fd-6dc8fc66b930",
+      "label": "XmiHasStructuralNode",
+      "source": "seg1",
+      "target": "n1",
+      "attributes": {
+        "ID": "7a2c29d0-0c76-401a-a5fd-6dc8fc66b930",
+        "Name": "XmiHasStructuralNode",
+        "Description": "",
+        "EntityType": "XmiHasStructuralNode",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "0ef86a32-0734-4b66-a5ec-c55198575a03",
+      "label": "XmiHasStructuralNode",
+      "source": "seg1",
+      "target": "n2",
+      "attributes": {
+        "ID": "0ef86a32-0734-4b66-a5ec-c55198575a03",
+        "Name": "XmiHasStructuralNode",
+        "Description": "",
+        "EntityType": "XmiHasStructuralNode",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "fb6775b7-8d9d-4e9a-90c8-9cfe1812c8ea",
+      "label": "XmiHasStructuralCrossSection",
+      "source": "cm1",
+      "target": "cs1",
+      "attributes": {
+        "ID": "fb6775b7-8d9d-4e9a-90c8-9cfe1812c8ea",
+        "Name": "XmiHasStructuralCrossSection",
+        "Description": "",
+        "EntityType": "XmiHasStructuralCrossSection",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "eca1d43d-f402-44dd-8810-62638894d127",
+      "label": "XmiHasSegment",
+      "source": "cm1",
+      "target": "seg1",
+      "attributes": {
+        "ID": "eca1d43d-f402-44dd-8810-62638894d127",
+        "Name": "XmiHasSegment",
+        "Description": "",
+        "EntityType": "XmiHasSegment",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "6f22e72d-4822-45b0-9f20-f47ed16db8d9",
+      "label": "XmiHasStructuralNode",
+      "source": "cm1",
+      "target": "n1",
+      "attributes": {
+        "ID": "6f22e72d-4822-45b0-9f20-f47ed16db8d9",
+        "Name": "XmiHasStructuralNode",
+        "Description": "",
+        "EntityType": "XmiHasStructuralNode",
+        "UmlType": "Association"
+      }
+    },
+    {
+      "id": "5e302034-8ef7-4f5b-91f4-deb33c5efdcd",
+      "label": "XmiHasStructuralNode",
+      "source": "cm1",
+      "target": "n2",
+      "attributes": {
+        "ID": "5e302034-8ef7-4f5b-91f4-deb33c5efdcd",
+        "Name": "XmiHasStructuralNode",
+        "Description": "",
+        "EntityType": "XmiHasStructuralNode",
+        "UmlType": "Association"
+      }
+    }
+  ]
+}
